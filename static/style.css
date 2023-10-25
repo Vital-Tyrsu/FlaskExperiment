@@ -1,0 +1,124 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ===========================================
+      Header
+=========================================== */
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===========================================
+=========================================== */
+
+/* ===========================================
+   Menu
+=========================================== */
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav a {
+    color: #56dd1c;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 1.7rem;
+}
+
+header nav a:hover {
+    transition: background 0.8s;
+    background-color: #56dd1c;
+    color: #fff;
+}
+
+/* ===========================================
+  =========================================== */
+
+/* ===========================================
+      Banner
+  =========================================== */
+
+#banner {
+    background-image: url(../img/header.jpg);
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner .wrapper {
+    color: #fff;
+    padding-top: 10rem;
+    position: sticky;
+    padding-left: 60rem;
+    max-width: 30%;
+}
+
+/* ===========================================
+   =========================================== */
+
+/* ===========================================
+      Main
+=========================================== */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    justify-content: space-around;
+}
+
+.grid .column:last-child {
+    background-color: #E0FFFF;
+    border: #87CEFA solid 0.3em;
+    color: #213ef8;
+}
+
+.grid .column:last-child a {
+    color: #2b6bd8;
+}
+
+/* ===========================================
+      Footer
+=========================================== */
+
+footer {
+    background-color: #000;
+    color: #808080;
+}
+
+footer .shortcuts ul {
+    display: flex;
+    list-style: none;
+}
+
+footer .shortcuts a {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 1rem;
+    border-right: #808080 solid 0.2rem;
+}
+
+/* ===========================================
+   =========================================== */

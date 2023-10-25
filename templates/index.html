@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Vital Tyrsu</title>
+</head>
+
+<body>
+    <h1>Called via IP Gateway: {{ request.remote_addr }}</h1>
+    <h2>Current date and time: {{ datetime_now }}</h2>
+    <header>
+        <div class="wrapper">
+            <h1 id="logo"><a href="#"><img src="../img/"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Substainability</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Planet</a></li>
+                    <li><a href="#">Plate</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="banner">
+        <div class="wrapper">
+            <h1>Responsible</h1>
+            <p>We seek to reduce our energy and water use by 15% and one day send zero waste to landfill.</p>
+        </div>
+    </div>
+    <main>
+        <div class="wrapper">
+            <h1>Susten Substainability</h1>
+            <h3>Our commitments</h3>
+            <div class="grid">
+                <div class="column">
+                    <img src="img/people.jpg" alt="Foto van groep mensen">
+                    <p>
+                        Susten's vision is to be a company that positively affects our guests, employees, communities
+                        and
+                        business partners - quite simply, we want to be a company that matters.
+                    </p>
+                    <p class="more"><a href="#">Learn more</a></p>
+                </div>
+
+                <div class="column">
+                    <img src="img/planet.jpg" alt="Foto van bedrijf met zonnepanelen">
+                    <p>
+                        Susten's takes a resource-focused approach to substainability. Our goal is to reduce the amount
+                        of
+                        resources we use at every restaurant and manage the inputs and outputs of our direct operations.
+                    </p>
+                    <p class="more"><a href="#">Learn more</a></p>
+                </div>
+
+                <div class="column">
+                    <img src="img/plate.jpg" alt="Foto van een boot in de zee">
+                    <p>
+                        Susten's focuses on opportunities where we can improve the substainability, nutrition and safety
+                        of
+                        our
+                        supply chain by partnering with key suppliers, scientists, industry and communities.
+                    </p>
+                    <p class="more"><a href="#">Learn more</a></p>
+                </div>
+
+                <div class="column">
+                    <h3>To Our Stakeholders</h3>
+                    <p>
+                        Hear from Clarence Otis Jr., Chairman & CEO, and Andrew H.Madsen, President & COO, of Susten
+                        Restaurants
+                    </p>
+                    <p class="more"><a href="#">Read the Letter</a></p>
+                </div>
+
+                <div class="column">
+                    <iframe src="https://www.youtube.com/embed/KfB2sx9uCkI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="column">
+                    <h4>Download the Report</h4>
+                    <p><a href="#">Dowload the Full Report</a></p>
+                    <p><a href="#">View Reporting Library</a></p>
+                    <p><a href="#">View Previous Reports</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <nav class="shortcuts">
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Corporate Governance</a></li>
+                    <li><a href="#">Our Brands</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <p>Copyright &copy;2022 Susten Corporation, Inc. All rights reserved.</p>
+            <form>
+                <p>
+                    <label for="email">subscribe to our newsletter:</label>
+                    <input type="email" id="email" placeholder="e.g. john@comp.com">
+                </p>
+                <p>
+                    <input type="submit" value="subscribe">
+                </p>
+            </form>
+
+        </div>
+    </footer>
+</body>
+
+</html>
